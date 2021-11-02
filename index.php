@@ -50,13 +50,13 @@
       </h2>
       <br>
       <center>
-      <img src="img/schoenen.jpg" alt="schoenenhome" class="imghome" height="300" width="900">
+      <img src="img/schoenen.jpg" alt="schoenenhome" class="imghome" height="300" width="700">
       </center>
 
 
   <section class="footer">
-    <p>Tel. nummer: +31 6 12345678 </p>   
-    <p>Adres: Julianastraat 69, Plaats</p>
+    <p>Tel. nummer: +31 6 12345678 
+  Adres: Julianastraat 69, Plaats</p>
     </section>
     </footer>
 </body>
