@@ -1,0 +1,65 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 2px -2px rgb(0, 0, 0);
+}
+
+li a, .schoenen1 {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    color: rgb(0, 0, 0);
+}
+
+li {
+    float: left;
+}
+
+li a:hover, .dropdown:hover .schoenen1:hover {
+    background-color: orange;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.content a:hover {
+    background-color: orange;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: orange;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
